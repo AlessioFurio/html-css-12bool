@@ -65,6 +65,10 @@
     width: calc((100% / 12) * 11);
 }
 
+.col-12 {
+    width: 100%;
+}
+
 /**********************FINE SEZIONE COL************************/
 
 
@@ -75,6 +79,10 @@
 
 .col-offset-1 {
     margin-left: calc((100% / 12) * 1);
+}
+
+.col-offset-1-5 { /***********offset x calc margin-left di 1,5*******************/
+    margin-left: calc((100% / 12) * 1.5);
 }
 
 .col-offset-2 {
